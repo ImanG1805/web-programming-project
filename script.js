@@ -1,3 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    alert("Welcome to the Skincare Blog! Stay healthy and glowing.");
+
+document.querySelector("form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    
+    if (name && email && message) {
+        alert("Thank you, " + name + "! We have received your message.");
+       
+    } else {
+        alert("Please fill in all fields.");
+    }
 });
+
