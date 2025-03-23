@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Body and container styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -17,7 +16,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styles */
 header {
     background-color: #4CAF50;
     color: white;
@@ -41,7 +39,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Section Styles */
+
 .section {
     padding: 40px 0;
     background-color: white;
@@ -65,7 +63,6 @@ ul li {
     margin: 10px 0;
 }
 
-/* Contact Form Styles */
 form {
     display: flex;
     flex-direction: column;
