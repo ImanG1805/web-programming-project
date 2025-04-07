@@ -11,6 +11,18 @@ document.querySelector("form").addEventListener("submit", function (event) {
        
     } else {
         alert("Please fill in all fields.");
+
     }
 });
+// Get all users from the database
+app.get('/users', (req, res) => {
+    connection.query('SELECT * FROM users', (err, results) => {
+      if (err) {
+        res.status(500).send('Error retrieving users');
+        return;
+      }
+      res.json(results);
+    });
+  });
+  
 

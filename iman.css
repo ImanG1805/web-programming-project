@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
     color: white;
     padding: 20px 0;
 }
